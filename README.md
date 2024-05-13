@@ -7,9 +7,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, install the required dependencies
 
 ```bash
-yarn
-# or
 npm install
+# or
+yarn
 ```
 
 Then, run the development server:
