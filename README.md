@@ -43,4 +43,3 @@ There are 2 react hooks, located in `src/hooks`:
 
 - `useWeather` With a given latitude and longitude, fetch weather information from `weather` API route
 - `useCity` With a given keyworkd, fetch city names, latitude and longitude from `country` API route
-# weather-app
