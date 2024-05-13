@@ -1,0 +1,47 @@
+.searchBox {
+  width: 600px;
+  border-radius: 10px;
+  background: #fff;
+  border: none;
+}
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+input.inputBox {
+  flex: 1;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #333;
+  font-size: 1.2em;
+}
+button.searchButton {
+  outline: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.resultBox ul {
+  border-top: 1px solid #999;
+  max-height: 300px;
+}
+
+.resultBox ul:has(li) {
+  padding: 15px 10px;
+}
+
+.resultBox ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.resultBox ul li:hover {
+  background-color: #eee;
+}
